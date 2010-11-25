@@ -1,0 +1,28 @@
+GIT
+  remote: git://github.com/igrigorik/em-synchrony.git
+  revision: 842c96b5e2006448a648ab822439bd1b059d02b3
+  specs:
+    em-synchrony (0.2.0)
+      eventmachine (>= 0.12.9)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.2)
+    em-http-request (0.2.15)
+      addressable (>= 2.0.0)
+      eventmachine (>= 0.12.9)
+    em-mysqlplus (0.1.5)
+      eventmachine (>= 0.12.9)
+    eventmachine (0.12.10)
+    mysqlplus (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-http-request
+  em-mysqlplus
+  em-synchrony!
+  eventmachine
+  mysqlplus
