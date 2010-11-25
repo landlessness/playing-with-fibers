@@ -1,3 +1,6 @@
+# to use:
+# telnet localhost 10000
+
 require 'eventmachine'
 
 class Echo < EM::Connection 
